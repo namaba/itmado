@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "name": "itmado",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],  
+  "scripts": {
+    "dev": "lerna run dev --parallel --stream --scope=@{client,server}"
+  }
+}
