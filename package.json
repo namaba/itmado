@@ -8,6 +8,6 @@
     "packages/*"
   ],  
   "scripts": {
-    "dev": "lerna run dev --parallel --stream --scope=@{client,server}"
+     "dev": "yarn lerna run dev --parallel --stream --scope={client,server}"
   }
 }
